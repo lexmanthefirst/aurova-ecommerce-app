@@ -8,7 +8,6 @@ import Hero from "@/app/components/Hero";
 import HeroImage from "@/app/components/HeroImage";
 import Stats from "@/app/components/Stat";
 import FilterBar from "@/app/components/FilterBar";
-import Products from "@/app/products";
 import CTA from "@/app/components/CTA";
 import Footer from "@/app/components/Footer";
 import { initDropdowns } from "@/app/lib/dropdown";

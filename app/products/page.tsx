@@ -3,7 +3,6 @@ import { useEffect, useRef, useState } from "react";
 import ProductCard from "@/app/components/ProductCard";
 import { Product } from "@/app/types/index";
 import Breadcrumbs from "@/app/components/Breadcrumbs";
-import Header from "@/app/components/Header";
 
 const products: Product[] = [
   {
@@ -81,7 +80,6 @@ export default function Products() {
 
   return (
     <>
-      <Header />
       <Breadcrumbs />
       <section
         ref={ref}
